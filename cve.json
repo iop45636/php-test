@@ -1,0 +1,250 @@
+{
+    "testjson":[
+    
+    {
+       "CVE": "CVE-2018-15982",
+       "severity": "critical",
+       "public_date": "2018-12-05T00:00:00+00:00",
+       "advisories": 
+          "RHSA-2018:3795"
+       ,
+       "bugzilla": "1656585",
+       "bugzilla_description": "\nCVE-2018-15982 flash-plugin: Arbitrary Code Execution vulnerability (APSB18-42)\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-416",
+       "affected_packages": [
+          "flash-plugin-32.0.0.101-1.el6_10"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-15982.json",
+       "cvss3_score": 8.8
+    },
+    {
+       "CVE": "CVE-2018-1002105",
+       "severity": "critical",
+       "public_date": "2018-12-03T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:3549",
+          "RHSA-2018:3537",
+          "RHSA-2018:3742",
+          "RHSA-2018:3754",
+          "RHSA-2018:3752",
+          "RHSA-2018:3624",
+          "RHSA-2018:3598",
+          "RHSA-2018:2906",
+          "RHSA-2018:3551",
+          "RHSA-2018:2908"
+       ],
+       "bugzilla": "1648138",
+       "bugzilla_description": "\nCVE-2018-1002105 kubernetes: authentication/authorization bypass in the handling of non-101 responses\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-305",
+       "affected_packages": [
+          "atomic-openshift-3.10.72-1.git.0.3cb2fdc.el7",
+          "atomic-openshift-3.11.43-1.git.0.647ac05.el7",
+          "atomic-openshift-3.2.1.34-2.git.20.6367d5d.el7",
+          "atomic-openshift-3.3.1.46.45-1.git.0.2ce596e.el7",
+          "atomic-openshift-3.4.1.44.57-1.git.0.a631031.el7",
+          "atomic-openshift-3.5.5.31.80-1.git.0.c4a0780.el7",
+          "atomic-openshift-3.6.173.0.140-1.git.0.9686d52.el7",
+          "atomic-openshift-3.7.72-1.git.0.925b9cd.el7",
+          "atomic-openshift-3.8.44-1.git.0.9be0abd.el7",
+          "atomic-openshift-3.9.51-1.git.0.dc3a40b.el7"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-1002105.json",
+       "cvss3_score": 9.8
+    },
+    {
+       "CVE": "CVE-2018-15981",
+       "severity": "critical",
+       "public_date": "2018-11-20T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:3644"
+       ],
+       "bugzilla": "1651640",
+       "bugzilla_description": "\nCVE-2018-15981 flash-plugin: Arbitrary code execution vulnerability (APSB18-44)\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": null,
+       "affected_packages": [
+          "flash-plugin-31.0.0.153-1.el6_10"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-15981.json",
+       "cvss3_score": 8.8
+    },
+    {
+       "CVE": "CVE-2018-14667",
+       "severity": "critical",
+       "public_date": "2018-11-06T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:3518",
+          "RHSA-2018:3517",
+          "RHSA-2018:3581",
+          "RHSA-2018:3519"
+       ],
+       "bugzilla": "1639139",
+       "bugzilla_description": "\nCVE-2018-14667 RichFaces: Expression Language injection via UserResource allows for unauthenticated remote code execution\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-94",
+       "affected_packages": [
+          "richfaces-0:3.3.1-9.SP3_patch_03.ep5.el5",
+          "richfaces-0:3.3.1-6.SP3_patch_03.ep5.el6"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-14667.json",
+       "cvss3_score": 9.8
+    },
+    {
+       "CVE": "CVE-2018-15751",
+       "severity": "critical",
+       "public_date": "2018-10-25T00:00:00+00:00",
+       "advisories": [],
+       "bugzilla": "1644489",
+       "bugzilla_description": "\nCVE-2018-15751 salt: Remote command execution and incorrect access control when using salt-api\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-20",
+       "affected_packages": [],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-15751.json",
+       "cvss3_score": 9.8
+    },
+    {
+       "CVE": "CVE-2018-12390",
+       "severity": "critical",
+       "public_date": "2018-10-23T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:3006",
+          "RHSA-2018:3531",
+          "RHSA-2018:3005",
+          "RHSA-2018:3532"
+       ],
+       "bugzilla": "1642180",
+       "bugzilla_description": "\nCVE-2018-12390 Mozilla: Memory safety bugs fixed in Firefox 63 and Firefox ESR 60.3\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-120",
+       "affected_packages": [
+          "firefox-60.3.0-1.el6",
+          "thunderbird-60.3.0-1.el6",
+          "firefox-60.3.0-1.el7_5",
+          "thunderbird-60.3.0-1.el7_5"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-12390.json",
+       "cvss3_score": 8.8
+    },
+    {
+       "CVE": "CVE-2018-3183",
+       "severity": "critical",
+       "public_date": "2018-10-16T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:2943",
+          "RHSA-2018:2942",
+          "RHSA-2018:3521",
+          "RHSA-2018:3533",
+          "RHSA-2018:3534",
+          "RHSA-2018:3003",
+          "RHSA-2018:3002"
+       ],
+       "bugzilla": "1639268",
+       "bugzilla_description": "\nCVE-2018-3183 OpenJDK: Unrestricted access to scripting engine (Scripting, 8202936)\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-284",
+       "affected_packages": [
+          "java-1.8.0-openjdk-1:1.8.0.191.b12-0.el6_10",
+          "java-1.8.0-openjdk-1:1.8.0.191.b12-0.el7_5",
+          "java-11-openjdk-1:11.0.1.13-3.el7_6",
+          "java-1.8.0-ibm-1:1.8.0.5.25-1jpp.1.el6_10",
+          "java-1.8.0-ibm-1:1.8.0.5.25-1jpp.1.el7",
+          "java-1.8.0-oracle-1:1.8.0.191-1jpp.1.el6",
+          "java-1.8.0-oracle-1:1.8.0.191-1jpp.1.el7"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-3183.json",
+       "cvss3_score": 8.1
+    },
+    {
+       "CVE": "CVE-2018-3169",
+       "severity": "critical",
+       "public_date": "2018-10-16T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:2943",
+          "RHSA-2018:3409",
+          "RHSA-2018:2942",
+          "RHSA-2018:3350",
+          "RHSA-2018:3521",
+          "RHSA-2018:3779",
+          "RHSA-2018:3533",
+          "RHSA-2018:3671",
+          "RHSA-2018:3534",
+          "RHSA-2018:3672",
+          "RHSA-2018:3000",
+          "RHSA-2018:3003",
+          "RHSA-2018:3001",
+          "RHSA-2018:3002"
+       ],
+       "bugzilla": "1639293",
+       "bugzilla_description": "\nCVE-2018-3169 OpenJDK: Improper field access checks (Hotspot, 8199226)\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-284",
+       "affected_packages": [
+          "java-1.8.0-openjdk-1:1.8.0.191.b12-0.el6_10",
+          "java-1.7.0-openjdk-1:1.7.0.201-2.6.16.0.el6_10",
+          "java-1.8.0-openjdk-1:1.8.0.191.b12-0.el7_5",
+          "java-1.7.0-openjdk-1:1.7.0.201-2.6.16.1.el7_6",
+          "java-11-openjdk-1:11.0.1.13-3.el7_6",
+          "java-1.7.1-ibm-1:1.7.1.4.35-1jpp.1.el6_10",
+          "java-1.8.0-ibm-1:1.8.0.5.25-1jpp.1.el6_10",
+          "java-1.8.0-ibm-1:1.8.0.5.25-1jpp.1.el7",
+          "java-1.7.1-ibm-1:1.7.1.4.35-1jpp.1.el7",
+          "java-1.7.0-oracle-1:1.7.0.201-1jpp.1.el6",
+          "java-1.8.0-oracle-1:1.8.0.191-1jpp.1.el6",
+          "java-1.7.0-oracle-1:1.7.0.201-1jpp.1.el7",
+          "java-1.8.0-oracle-1:1.8.0.191-1jpp.1.el7"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-3169.json",
+       "cvss3_score": 7.5
+    },
+    {
+       "CVE": "CVE-2018-3209",
+       "severity": "critical",
+       "public_date": "2018-10-16T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:3003",
+          "RHSA-2018:3002"
+       ],
+       "bugzilla": "1639904",
+       "bugzilla_description": "\nCVE-2018-3209 Oracle JDK: unspecified vulnerability fixed in 8u191 (JavaFX)\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": null,
+       "affected_packages": [
+          "java-1.8.0-oracle-1:1.8.0.191-1jpp.1.el6",
+          "java-1.8.0-oracle-1:1.8.0.191-1jpp.1.el7"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-3209.json",
+       "cvss3_score": 7.5
+    },
+    {
+       "CVE": "CVE-2018-12386",
+       "severity": "critical",
+       "public_date": "2018-10-02T00:00:00+00:00",
+       "advisories": [
+          "RHSA-2018:2881",
+          "RHSA-2018:2884"
+       ],
+       "bugzilla": "1635451",
+       "bugzilla_description": "\nCVE-2018-12386 Mozilla: type confusion in JavaScript\n    ",
+       "cvss_score": null,
+       "cvss_scoring_vector": null,
+       "CWE": "CWE-843->(CWE-125|CWE-787)",
+       "affected_packages": [
+          "firefox-60.2.2-1.el6",
+          "firefox-60.2.2-1.el7_5"
+       ],
+       "resource_url": "https://access.redhat.com/labs/securitydataapi/cve/CVE-2018-12386.json",
+       "cvss3_score": 8.8
+    }
+ ]
+}
